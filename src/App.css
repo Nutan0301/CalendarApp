@@ -1,0 +1,43 @@
+.flex-container {
+  display: flex;
+  background-color: #ffffff;
+  padding: 15px;
+  flex-direction: column;
+  font-size: 30px;
+  width: 98.2%;
+  min-width: 1200px;
+}
+
+.hour-line:after{
+  content: " ";
+  display: block;
+  height: 1px;
+  width: 90%;
+  position: relative;
+  top: -52px;
+  left: 137px;
+  background: gray;
+}
+.hour-line{
+  position: relative;
+  text-align: left;
+}
+.timeLabel {
+  height: 120px;
+  color: #444;
+}
+.cal-header {
+  padding: 20px;
+  font-size: 30px;
+  color: #444;
+  font-weight: bold;
+  text-align: center;
+}
+.event-flex {
+  display: flex;
+  flex-direction: row;
+  position:absolute;
+  width: 88%;
+  margin-left: 150px;
+}
+
